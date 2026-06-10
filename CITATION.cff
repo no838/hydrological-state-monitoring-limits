@@ -11,6 +11,9 @@ authors:
     affiliation: "Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring, Warning and Forecasting (Shenzhen Institute of Meteorological Innovation); Shenzhen Key Laboratory of Southern Severe Weather Research (Shenzhen Key Laboratory of Artificial Intelligence Meteorological Application)"
 date-released: "2026-06-10"
 version: "v1.0.0-round9"
+doi: 10.5281/zenodo.20630565
+url: "https://doi.org/10.5281/zenodo.20630565"
+repository-code: "https://github.com/no838/hydrological-state-monitoring-limits"
 license: "MIT AND CC-BY-4.0"
 keywords:
   - hydrological state monitoring

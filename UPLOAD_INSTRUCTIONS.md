@@ -1,12 +1,11 @@
 # Upload instructions
 
-Current upload status: **GitHub uploaded; Zenodo pending**.
+Current upload status: **GitHub uploaded; Zenodo published; Zenodo creator metadata needs review**.
 
 The local package has passed the public-release sanitization check and has
-been committed locally. The GitHub repository and GitHub release are live.
-Zenodo upload remains pending until Zenodo authentication is completed through
-a secure login flow. Do not paste private access strings into chat, repository
-files, manuscripts or shell history.
+been committed locally. The GitHub repository, GitHub release and Zenodo record
+are live. Do not paste private access strings into chat, repository files,
+manuscripts or shell history.
 
 GitHub repository:
 
@@ -31,7 +30,14 @@ Completed:
 
 ## Zenodo
 
-Use the GitHub-Zenodo integration after the GitHub repository is public, or
-upload `hydrological-state-monitoring-limits-public-release.zip` manually through
-the Zenodo web interface. The `.zenodo.json` file in this directory contains the
-prepared metadata. Do not place private access strings in this repository.
+Published record:
+
+```text
+https://zenodo.org/records/20630565
+https://doi.org/10.5281/zenodo.20630565
+```
+
+Creator-metadata note: the official Zenodo record currently lists `Zhou, Xi-Yin`
+as the only creator. The local metadata and `AUTHORS.md` list `Chunyan Cao` as
+the second creator. Update the Zenodo record metadata manually before final
+indexing if both creators must appear on the public Zenodo citation.

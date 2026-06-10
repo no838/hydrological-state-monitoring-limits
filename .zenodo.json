@@ -21,6 +21,12 @@
     "MERRA2-GloFAS",
     "source data"
   ],
-  "related_identifiers": [],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.0.0-round9",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
   "version": "v1.0.0-round9"
 }

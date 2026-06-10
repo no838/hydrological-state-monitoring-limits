@@ -2,6 +2,10 @@
 
 Derived source data and lightweight code supporting the article 'Global limits of hydrological state monitoring for high-flow prediction'. The release contains public-safe figure source data, supporting derived audit tables and figure-building scripts. Raw provider data are not redistributed.
 
+Archived release: https://doi.org/10.5281/zenodo.20630565
+
+GitHub repository: https://github.com/no838/hydrological-state-monitoring-limits
+
 ## Authors
 
 1. Xi-Yin Zhou (first and corresponding author)
@@ -30,6 +34,14 @@ claim complete raw-data reproduction. Raw MERRA2, GloFAS, CHIRPS/GLEAM, GRDC,
 GSIM or other provider archives are not redistributed. Users should retrieve
 raw provider data from the original data providers under their respective
 licenses if they need to rebuild the full upstream pipeline.
+
+## Citation
+
+Please cite the archived release as:
+
+Zhou, X.-Y. (2026). Global limits of hydrological state monitoring for high-flow prediction (v1.0.0-round9) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20630565
+
+The local release metadata lists Chunyan Cao as the second creator. The first published Zenodo record metadata currently displays Xi-Yin Zhou as creator; update the Zenodo record metadata if citation indexing must expose both creators at the record level.
 
 ## Quick start
 
