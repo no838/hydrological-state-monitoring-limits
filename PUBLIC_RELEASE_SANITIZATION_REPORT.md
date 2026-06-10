@@ -1,8 +1,8 @@
 # Public Release Sanitization Report
 
-- generated_at: 2026-06-10T15:16:37.092891+00:00
-- release_file_count: 62
-- manifest_rows: 51
+- generated_at: 2026-06-10T15:22:05+00:00
+- release_file_count: 64
+- manifest_rows: 52
 - raw provider data: excluded
 - manuscript DOCX/PDF and cover letter: excluded
 - rendered page previews and submission hard-gate internals: excluded
