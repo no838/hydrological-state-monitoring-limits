@@ -1,45 +1,33 @@
 # Upload instructions
 
-Current upload status: **not uploaded yet**.
+Current upload status: **GitHub uploaded; Zenodo pending**.
 
 The local package has passed the public-release sanitization check and has
-been committed locally. External upload is blocked until GitHub and Zenodo
-authentication are completed through secure login flows. Do not paste private
-access strings into chat, repository files, manuscripts or shell history.
+been committed locally. The GitHub repository and GitHub release are live.
+Zenodo upload remains pending until Zenodo authentication is completed through
+a secure login flow. Do not paste private access strings into chat, repository
+files, manuscripts or shell history.
+
+GitHub repository:
+
+```text
+https://github.com/no838/hydrological-state-monitoring-limits
+```
+
+GitHub release:
+
+```text
+https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.0.0-round9
+```
 
 ## GitHub
 
-Authenticate first:
+Completed:
 
-```bash
-gh auth login -h github.com
-```
-
-Then, from this release directory:
-
-```bash
-gh repo create <USER_OR_ORG>/hydrological-state-monitoring-limits \
-  --public \
-  --source=. \
-  --remote=origin \
-  --push
-gh release create v1.0.0-round9 \
-  ../hydrological-state-monitoring-limits-public-release.zip \
-  --title "v1.0.0-round9 public data and code release" \
-  --notes "Public-safe derived source data and lightweight code for the hydrological state-monitoring limits article."
-```
-
-If the repository already exists, use:
-
-```bash
-git remote add origin git@github.com:<USER_OR_ORG>/hydrological-state-monitoring-limits.git
-git branch -M main
-git push -u origin main
-gh release create v1.0.0-round9 \
-  ../hydrological-state-monitoring-limits-public-release.zip \
-  --title "v1.0.0-round9 public data and code release" \
-  --notes "Public-safe derived source data and lightweight code for the hydrological state-monitoring limits article."
-```
+- repository created under `no838`;
+- default branch pushed as `main`;
+- release `v1.0.0-round9` created;
+- archive asset uploaded.
 
 ## Zenodo
 

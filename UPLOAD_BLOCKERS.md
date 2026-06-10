@@ -1,15 +1,14 @@
 # Upload Blockers
 
-Status as of 2026-06-10: **external upload not completed**.
+Status as of 2026-06-10: **GitHub uploaded; Zenodo pending**.
 
 ## GitHub
 
-`gh auth status` reports that the active GitHub account `no838` is not
-authenticated. Re-authenticate through the GitHub CLI before upload:
+Completed.
 
-```bash
-gh auth login -h github.com
-```
+- repository: `https://github.com/no838/hydrological-state-monitoring-limits`
+- release: `https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.0.0-round9`
+- archive asset: `hydrological-state-monitoring-limits-public-release.zip`
 
 Do not paste GitHub private access strings into chat, repository files,
 manuscripts or shell history.
@@ -27,5 +26,5 @@ Do not place Zenodo private access strings in this repository.
 
 - release directory: `hydrological-state-monitoring-limits-public-release/`
 - release archive: `../hydrological-state-monitoring-limits-public-release.zip`
-- local git commit: `cf69eb8` plus any subsequent upload-instruction commits
+- local git commits: `cf69eb8`, `6936af5` plus any subsequent upload-status commits
 - sanitization report: `PUBLIC_RELEASE_SANITIZATION_REPORT.md`
