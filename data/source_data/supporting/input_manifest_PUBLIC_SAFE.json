@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-06-10T15:23:46",
+  "decision": "OBSERVED_ANCHOR_GEOMETRY_JOIN_AUDIT_BUILT",
+  "boundary": "support_only_not_main_authority",
+  "inputs_public_description": {
+    "threshold_grid": "Derived threshold-response grid; raw provider data not redistributed.",
+    "GSIM observed anchor": "Derived GSIM basin-average panel and public GSIM metadata/characteristics; local paths removed.",
+    "GRDC observed anchor": "Derived GRDC station-month response and station-point summaries; local paths removed.",
+    "GRDC polygon route": "Partial local polygon support only; not used as closed basin-polygon route."
+  },
+  "stage_match_flags": [
+    {
+      "dataset": "GSIM219_basin_average",
+      "matches_threshold_authority": true
+    },
+    {
+      "dataset": "GRDC1736_station_point",
+      "matches_threshold_authority": true
+    }
+  ],
+  "geometry_summary": [
+    {
+      "dataset": "GSIM219_basin_average",
+      "geometry_type": "basin_polygon",
+      "ready_entities": 210,
+      "family_entities": 210,
+      "coverage_share": 1.0,
+      "claim_label": "support_geometry_closed",
+      "note": "GSIM join requires metadata.csv, catchment_characteristics.csv and per-basin shapefile presence."
+    },
+    {
+      "dataset": "GSIM219_basin_average",
+      "geometry_type": "reference_point",
+      "ready_entities": 210,
+      "family_entities": 210,
+      "coverage_share": 1.0,
+      "claim_label": "support_geometry_closed",
+      "note": "GSIM panel already carries station coordinates for all final-family entities."
+    },
+    {
+      "dataset": "GRDC1736_station_point",
+      "geometry_type": "station_point",
+      "ready_entities": 1719,
+      "family_entities": 1719,
+      "coverage_share": 1.0,
+      "claim_label": "support_geometry_closed",
+      "note": "GRDC final-family point geometry comes from the reconstructed response panel latitude/longitude."
+    },
+    {
+      "dataset": "GRDC1736_station_point",
+      "geometry_type": "basin_polygon",
+      "ready_entities": 54,
+      "family_entities": 1719,
+      "coverage_share": 0.031413612565445025,
+      "claim_label": "support_geometry_partial",
+      "note": "GRDC polygon coverage is limited to the available available polygon family; it does not close the full 1719-station support route."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+dataset,geometry_type,ready_entities,family_entities,coverage_share,claim_label,note
+GSIM219_basin_average,basin_polygon,210,210,1.0,support_geometry_closed,"GSIM join requires metadata.csv, catchment_characteristics.csv and per-basin shapefile presence."
+GSIM219_basin_average,reference_point,210,210,1.0,support_geometry_closed,GSIM panel already carries station coordinates for all final-family entities.
+GRDC1736_station_point,station_point,1719,1719,1.0,support_geometry_closed,GRDC final-family point geometry comes from the reconstructed response panel latitude/longitude.
+GRDC1736_station_point,basin_polygon,54,1719,0.031413612565445025,support_geometry_partial,GRDC polygon coverage is limited to the available available polygon family; it does not close the full 1719-station support route.

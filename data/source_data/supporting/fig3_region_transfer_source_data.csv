@@ -1,0 +1,7 @@
+region,model,rows,events,auc,brier,delta_auc_vs_rain_persistence,delta_brier_vs_rain_persistence,state_value_pass,test_tiles,geometry_type
+asia,rain_state_persistence,11616,1262,0.7577124392388986,0.0917610307607477,-0.0377054795883413,-0.0048588154825385,False,24,region_summary_no_basin_boundary
+australasia,rain_state_persistence,2420,229,0.8433857045196805,0.0929063184477204,-0.0242377012749657,-0.0030046178139288,False,5,region_summary_no_basin_boundary
+europe_west_asia,rain_state_persistence,4356,449,0.6283761713742053,0.0937995942788697,0.0184535437792826,0.0006048877222584,True,9,region_summary_no_basin_boundary
+high_latitude_north,rain_state_persistence,27104,2968,0.638727278630885,0.1070774378580287,0.0205749238144673,-0.0019623450893535,False,56,region_summary_no_basin_boundary
+north_america,rain_state_persistence,14520,1557,0.67083769521187,0.0921424894586421,0.0476066930477638,0.0101173093069932,True,30,region_summary_no_basin_boundary
+south_america,rain_state_persistence,2904,265,0.6890445923627446,0.0816985533702679,-0.0225585735019696,0.0040734307808581,False,6,region_summary_no_basin_boundary

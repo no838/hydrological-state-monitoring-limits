@@ -1,0 +1,9 @@
+dataset,stage,rows,stations,tiles,note,matches_threshold_authority
+GSIM219_basin_average,source_panel_raw,14602,219,5,Raw GSIM basin-average source panel before null and support-length filters.,False
+GSIM219_basin_average,after_required_nonnull,14409,219,5,"After dropping rows with missing rain, wetness, or response.",False
+GSIM219_basin_average,final_threshold_valid_family,14283,210,5,After the authority script's >=24 valid months per station filter.,True
+GSIM219_basin_average,threshold_authority_summary,14283,210,5,Counts reported in threshold_response_grid.csv.,False
+GRDC1736_station_point,source_family_after_join_support,122783,1772,75,Reconstructed GRDC station-point family after join-support filters but before null and support-length filters.,False
+GRDC1736_station_point,after_required_nonnull,118675,1736,75,"After dropping rows with missing rain, wetness, or response.",False
+GRDC1736_station_point,final_threshold_valid_family,118415,1719,75,After the authority script's >=24 valid months per station filter.,True
+GRDC1736_station_point,threshold_authority_summary,118415,1719,75,Counts reported in threshold_response_grid.csv.,False

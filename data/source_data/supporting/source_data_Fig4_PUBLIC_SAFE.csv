@@ -1,0 +1,28 @@
+panel,family,display_family,value,status,authority_window,aligned,detail
+family_status,climate_storage,Climate,1.0,full_window_counted,full_window_1981_2024,True,strict_prior_family_hit
+support_breadth,climate_storage,Climate,,region_support,full_window_1981_2024,True,
+family_status,geomorphic_connectivity,Geomorphic,0.0,not_counted,full_window_1981_2024,False,candidate_not_counted
+support_breadth,geomorphic_connectivity,Geomorphic,0.2,region_support,full_window_1981_2024,False,1/5
+family_status,human_storage,Human,1.0,full_window_counted,full_window_1981_2024,True,candidate_full_window_region_screen
+support_breadth,human_storage,Human,0.6666666666666666,region_support,full_window_1981_2024,True,2/3
+family_status,hydroclimate_storage,Hydroclim.,0.0,not_counted,full_window_1981_2024,False,candidate_not_counted
+support_breadth,hydroclimate_storage,Hydroclim.,0.2,region_support,full_window_1981_2024,False,1/5
+family_status,soil_texture_storage,Soil texture,1.0,full_window_counted,full_window_1981_2024,True,candidate_full_window_region_screen
+support_breadth,soil_texture_storage,Soil texture,0.4,region_support,full_window_1981_2024,True,2/5
+family_status,subsurface_storage,Subsurface,0.0,not_counted,full_window_1981_2024,False,candidate_not_counted
+support_breadth,subsurface_storage,Subsurface,0.5,region_support,full_window_1981_2024,False,2/4
+family_status,unclassified:catchment_area_km2,Unclass.,0.0,not_counted,full_window_1981_2024,False,candidate_not_counted_unclassified
+support_breadth,unclassified:catchment_area_km2,Unclass.,0.2,region_support,full_window_1981_2024,False,1/5
+family_status,unclassified:kar_pc_sse_polygon_aw,Unclass.,0.0,not_counted,full_window_1981_2024,False,candidate_not_counted_unclassified
+support_breadth,unclassified:kar_pc_sse_polygon_aw,Unclass.,0.4,region_support,full_window_1981_2024,False,2/5
+family_status,unclassified:pet_mm_syr_polygon_aw,Unclass.,0.0,not_counted,full_window_1981_2024,False,candidate_not_counted_unclassified
+support_breadth,unclassified:pet_mm_syr_polygon_aw,Unclass.,0.8,region_support,full_window_1981_2024,False,4/5
+family_status,unclassified:pre_mm_syr_polygon_aw,Unclass.,0.0,not_counted,full_window_1981_2024,False,candidate_not_counted_unclassified
+support_breadth,unclassified:pre_mm_syr_polygon_aw,Unclass.,0.4,region_support,full_window_1981_2024,False,2/5
+family_status,unclassified:slt_pc_sav_polygon_aw,Unclass.,0.0,not_counted,full_window_1981_2024,False,candidate_not_counted_unclassified
+support_breadth,unclassified:slt_pc_sav_polygon_aw,Unclass.,0.6,region_support,full_window_1981_2024,False,3/5
+family_status,satellite_tws_storage,GRACE/TWS,0.0,ancillary_only,post_2002_only,True,ancillary_post_2002_independent_support
+support_breadth,satellite_tws_storage,GRACE/TWS,,region_support,post_2002_only,True,7
+closure_count,full_window_counted,Full-window,3.0,count,1981-2024,True,countable full-window families
+closure_count,required_full_window,Required,3.0,threshold,1981-2024,True,minimum full-window families
+closure_count,with_ancillary,With ancillary,4.0,ancillary,mixed,True,includes post-2002 support

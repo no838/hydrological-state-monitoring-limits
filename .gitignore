@@ -1,0 +1,13 @@
+__pycache__/
+.DS_Store
+*.tmp
+*.lock
+*.nc
+*.grib
+*.grb
+*.zarr/
+raw/
+raw_data/
+cache/
+checkpoints/
+.env

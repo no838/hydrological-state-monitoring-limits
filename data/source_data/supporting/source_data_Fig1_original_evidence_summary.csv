@@ -1,0 +1,17 @@
+panel,metric,category,status,supports_reopen,value,boundary,supported,subgroup_only,support_limited,total,pass_blocks,evaluated_blocks,pass_share,median_auc_delta,median_brier_delta
+A,route_reopen_evidence,event_definition_transition,cross_source_supported,True,1,Do not call it a physical phase transition.,,,,,,,,,
+A,route_reopen_evidence,persistence_absorption,cross_source_supported,True,1,Do not claim state-only value beyond persistence.,,,,,,,,,
+A,route_reopen_evidence,storage_proxy_family_breadth,STORAGE_PROXY_FAMILY_BREADTH_CLOSED,True,1,Ancillary families are not full-window authority: satellite_tws_storage.,,,,,,,,,
+A,route_reopen_evidence,out_of_time_transfer,pass,True,1,Does not rescue global spatial portability.,,,,,,,,,
+A,route_reopen_evidence,out_of_region_transfer,fail,False,0,Blocks globally portable state-monitoring value.,,,,,,,,,
+A,route_reopen_evidence,era_region_transfer,fail,False,0,Blocks broad spatiotemporal portability.,,,,,,,,,
+B,event_definition_transition_candidates,raw_state,,,,,519,146,37,702,,,,,
+B,event_definition_transition_candidates,residual_state_matched,,,,,335,112,39,486,,,,,
+B,event_definition_transition_candidates,rain_persistence_matched,,,,,220,101,38,359,,,,,
+C,storage_proxy_family_count,full-window counted,,,3,,,,,,,,,,
+C,storage_proxy_family_count,ancillary,,,1,,,,,,,,,,
+C,storage_proxy_family_count,not counted,,,3,,,,,,,,,,
+C,storage_proxy_family_count,unclassified,,,5,,,,,,,,,,
+D,transfer_pass_blocks,out_of_time,,,,,,,,,2,2,1.0,0.028674847900837463,0.0021737620733480387
+D,transfer_pass_blocks,out_of_region,,,,,,,,,2,6,0.3333333333333333,-0.002052514861343502,-0.0006787286835475345
+D,transfer_pass_blocks,era_region_transfer,,,,,,,,,4,11,0.36363636363636365,0.012642331733966228,-0.0016435355807005586

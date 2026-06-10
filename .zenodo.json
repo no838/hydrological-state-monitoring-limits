@@ -1,0 +1,26 @@
+{
+  "title": "Global limits of hydrological state monitoring for high-flow prediction",
+  "upload_type": "dataset",
+  "description": "Derived source data and lightweight code supporting the article 'Global limits of hydrological state monitoring for high-flow prediction'. The release contains public-safe figure source data, supporting derived audit tables and figure-building scripts. Raw provider data are not redistributed.",
+  "creators": [
+    {
+      "name": "Zhou, Xi-Yin",
+      "affiliation": "Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring, Warning and Forecasting (Shenzhen Institute of Meteorological Innovation), Shenzhen 518000, China; Shenzhen Key Laboratory of Southern Severe Weather Research (Shenzhen Key Laboratory of Artificial Intelligence Meteorological Application), Shenzhen, Guangdong 518038, China"
+    },
+    {
+      "name": "Cao, Chunyan",
+      "affiliation": "Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring, Warning and Forecasting (Shenzhen Institute of Meteorological Innovation), Shenzhen 518000, China; Shenzhen Key Laboratory of Southern Severe Weather Research (Shenzhen Key Laboratory of Artificial Intelligence Meteorological Application), Shenzhen, Guangdong 518038, China"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "hydrological state monitoring",
+    "high-flow prediction",
+    "streamflow persistence",
+    "MERRA2-GloFAS",
+    "source data"
+  ],
+  "related_identifiers": [],
+  "version": "v1.0.0-round9"
+}
