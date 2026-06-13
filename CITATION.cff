@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this data/code release, please cite it."
 title: "Global limits of hydrological state monitoring for high-flow prediction"
-version: "v1.0.0-round23"
+version: "v1.0.0"
 type: dataset
 authors:
   - family-names: Zhou

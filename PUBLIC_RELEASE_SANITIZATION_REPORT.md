@@ -1,8 +1,8 @@
 # Public Release Sanitization Report
 
-Generated: 2026-06-13T03:28:09.797483+00:00
-Source package: ROUND23 results rewrite package
-Release version: v1.0.0-round23
+Generated: 2026-06-13T03:56:56.469530+00:00
+Source package: selected manuscript-supporting source-data package
+Release version: v1.0.0
 
 ## Included
 

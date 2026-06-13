@@ -7,9 +7,8 @@ scripts and manuscript-facing files are not redistributed.
 
 ## Version
 
-- Release version: `v1.0.0-round23`
+- Release version: `v1.0.0`
 - GitHub repository: https://github.com/no838/hydrological-state-monitoring-limits
-- Prior archived version DOI: https://doi.org/10.5281/zenodo.20630565
 - Concept DOI reserved for all versions: https://doi.org/10.5281/zenodo.20630564
 
 ## Creators
@@ -43,9 +42,8 @@ data layout.
 
 ## Citation
 
-If using this release before a new Zenodo DOI appears, cite the GitHub release
-and the concept DOI above. After Zenodo archives `v1.0.0-round23`, cite the new
-version DOI reported by Zenodo.
+After Zenodo archives this release, cite the version DOI reported by Zenodo.
+The concept DOI above resolves to the latest archived version.
 
 ## License
 

@@ -23,15 +23,10 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.0.0-round23",
+      "identifier": "https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.0.0",
       "relation": "isSupplementTo",
       "scheme": "url"
-    },
-    {
-      "identifier": "https://doi.org/10.5281/zenodo.20630565",
-      "relation": "isNewVersionOf",
-      "scheme": "doi"
     }
   ],
-  "version": "v1.0.0-round23"
+  "version": "v1.0.0"
 }
