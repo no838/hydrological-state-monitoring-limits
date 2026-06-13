@@ -1,23 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this release, please cite the associated article and this archive."
+message: "If you use this data/code release, please cite it."
 title: "Global limits of hydrological state monitoring for high-flow prediction"
+version: "v1.0.0-round23"
+type: dataset
 authors:
   - family-names: Zhou
     given-names: Xi-Yin
-    email: xiyinzhou@foxmail.com
-    affiliation: "Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring, Warning and Forecasting (Shenzhen Institute of Meteorological Innovation); Shenzhen Key Laboratory of Southern Severe Weather Research (Shenzhen Key Laboratory of Artificial Intelligence Meteorological Application)"
   - family-names: Cao
     given-names: Chunyan
-    affiliation: "Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring, Warning and Forecasting (Shenzhen Institute of Meteorological Innovation); Shenzhen Key Laboratory of Southern Severe Weather Research (Shenzhen Key Laboratory of Artificial Intelligence Meteorological Application)"
-date-released: "2026-06-10"
-version: "v1.0.0-round9"
-doi: 10.5281/zenodo.20630565
-url: "https://doi.org/10.5281/zenodo.20630565"
 repository-code: "https://github.com/no838/hydrological-state-monitoring-limits"
-license: "MIT AND CC-BY-4.0"
-keywords:
-  - hydrological state monitoring
-  - high-flow prediction
-  - streamflow persistence
-  - source data
-  - flood prediction
+doi: "10.5281/zenodo.20630564"
+date-released: "2026-06-13"
+license: CC-BY-4.0

@@ -1,13 +1,4 @@
 __pycache__/
+*.pyc
 .DS_Store
-*.tmp
-*.lock
-*.nc
-*.grib
-*.grb
-*.zarr/
-raw/
-raw_data/
-cache/
-checkpoints/
-.env
+.ipynb_checkpoints/

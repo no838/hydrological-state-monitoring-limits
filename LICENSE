@@ -1,17 +1,16 @@
-MIT License for code; CC BY 4.0 for derived source-data tables where permitted by upstream provider terms.
+MIT License
 
-Code license:
 Copyright (c) 2026 Xi-Yin Zhou and Chunyan Cao
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of the code in this release to use, copy, modify, merge, publish, distribute,
-sublicense, and/or sell copies of the code, subject to including this notice.
+of the software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following conditions:
 
-Derived data license:
-Derived figure source-data tables are made available under Creative Commons
-Attribution 4.0 International (CC BY 4.0), subject to the condition that raw
-provider data are not redistributed here and remain governed by their original
-provider licenses.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-No warranty:
-The materials are provided "as is", without warranty of any kind.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.

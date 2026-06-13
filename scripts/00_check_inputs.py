@@ -18,7 +18,18 @@ if missing:
     for p in missing:
         print(f"  - {p}")
     sys.exit(1)
-blocked_markers = ["/" + "Users/", "/" + "Volumes/", "pass" + "word", "se" + "cret", "to" + "ken", "api" + "_key"]
+blocked_markers = [
+    "/" + "Users/",
+    "/" + "Volumes/",
+    "sandbox:",
+    "/mnt/",
+    "pass" + "word",
+    "se" + "cret",
+    "to" + "ken",
+    "api" + "_key",
+    "Cover_Letter",
+    "Manuscript(",
+]
 hits = []
 skip_names = {"00_check_inputs.py", "PUBLIC_RELEASE_SANITIZATION_REPORT.md"}
 for path in root.rglob("*"):

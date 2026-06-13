@@ -1,7 +1,7 @@
 {
   "title": "Global limits of hydrological state monitoring for high-flow prediction",
   "upload_type": "dataset",
-  "description": "Derived source data and lightweight code supporting the article 'Global limits of hydrological state monitoring for high-flow prediction'. The release contains public-safe figure source data, supporting derived audit tables and figure-building scripts. Raw provider data are not redistributed.",
+  "description": "Derived source data and lightweight code supporting the article 'Global limits of hydrological state monitoring for high-flow prediction'. This public release contains figure source data, supporting derived audit tables and partial source-data inspection scripts. Raw provider data, rendered figures, full figure-building scripts and manuscript-facing files are not redistributed.",
   "creators": [
     {
       "name": "Zhou, Xi-Yin",
@@ -23,10 +23,15 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.0.0-round9",
+      "identifier": "https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.0.0-round23",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.20630565",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
     }
   ],
-  "version": "v1.0.0-round9"
+  "version": "v1.0.0-round23"
 }

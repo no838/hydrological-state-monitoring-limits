@@ -1,5 +1,5 @@
-figure,panel,evidence_role,source_data_workbook,claim_boundary
-Figure 1,a-d,information partition and claim boundary,Source_Data_Fig1_INFORMATION_PARTITION.xlsx,persistence-conditioned monitoring problem
-Figure 2,a-d,event-definition surface and bootstrap uncertainty,Source_Data_Fig2_THRESHOLD_CI.xlsx,"upper-tail strengthening candidate, not physical phase transition"
-Figure 3,a-d,spatial transfer diagnostic,Source_Data_Fig3_SPATIAL_TRANSFER.xlsx,"tile-centroid diagnostic, not basin/station boundary map"
-Figure 4,a-d,storage-proxy family breadth,Source_Data_Fig4_STORAGE_FAMILY.xlsx,"moderator layer, not closed storage mechanism"
+figure,source_data,claim_boundary
+Figure 1,data/source_data/Source_Data_Fig1_INFORMATION_PARTITION.xlsx,information partition summary
+Figure 2,data/source_data/Source_Data_Fig2_THRESHOLD_CI.xlsx,threshold sensitivity and confidence intervals
+Figure 3,data/source_data/Source_Data_Fig3_SPATIAL_TRANSFER.xlsx,spatial transfer and monitoring-value classes
+Figure 4,data/source_data/Source_Data_Fig4_STORAGE_FAMILY.xlsx,storage proxy-family breadth summary

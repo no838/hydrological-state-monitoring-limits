@@ -1,27 +1,24 @@
 # Public Release Sanitization Report
 
-- generated_at: 2026-06-10T15:22:05+00:00
-- release_file_count: 64
-- manifest_rows: 52
-- raw provider data: excluded
-- manuscript DOCX/PDF and cover letter: excluded
-- rendered page previews and submission hard-gate internals: excluded
-- large TIFF figures: excluded
-- credentials/tokens/secrets: excluded
+Generated: 2026-06-13T03:28:09.797483+00:00
+Source package: ROUND23 results rewrite package
+Release version: v1.0.0-round23
 
-## Marker scan
+## Included
 
-- blocked marker group 1: 0 hit(s) []
-- blocked marker group 2: 0 hit(s) []
-- blocked marker group 3: 0 hit(s) []
-- blocked marker group 4: 0 hit(s) []
-- blocked marker group 5: 0 hit(s) []
-- blocked marker group 6: 0 hit(s) []
-- blocked marker group 7: 0 hit(s) []
-- blocked marker group 8: 0 hit(s) []
-- blocked marker group 9: 0 hit(s) []
-- blocked marker group 10: 0 hit(s) []
-- blocked marker group 11: 0 hit(s) []
+- Derived figure source data and public-safe supporting tables.
+- Lightweight source-data inspection scripts.
+- Release metadata, manifest and checksums.
 
-Release verdict: PUBLIC_RELEASE_CANDIDATE
-Scanner self-reference files are excluded from the marker count.
+## Excluded
+
+- Manuscript DOCX/PDF.
+- Cover letter DOCX/PDF.
+- Supplementary Information DOCX/PDF.
+- Rendered figure files in PNG, PDF, SVG and TIFF format.
+- Raw provider datasets, caches, checkpoints, credentials and local path records.
+
+## Claim boundary
+
+This is a public data/code availability release. It is not a full article-file
+archive and does not redistribute provider raw data.

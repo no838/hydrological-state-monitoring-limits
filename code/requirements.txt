@@ -1,5 +1,2 @@
-python>=3.10
-matplotlib
-numpy
-python-docx
-Pillow
+pandas>=2.0
+openpyxl>=3.1
