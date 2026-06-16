@@ -1,7 +1,7 @@
 {
-  "title": "Global limits of hydrological state monitoring for high-flow prediction",
+  "title": "Global limits of hydrological state monitoring under streamflow persistence",
   "upload_type": "dataset",
-  "description": "Derived source data and lightweight code supporting the article 'Global limits of hydrological state monitoring for high-flow prediction'. This public release contains figure source data, supporting derived audit tables and partial source-data inspection scripts. Raw provider data, rendered figures, full figure-building scripts and manuscript-facing files are not redistributed.",
+  "description": "Derived source data and lightweight code supporting the article 'Global limits of hydrological state monitoring under streamflow persistence'. This public release contains figure source data, supporting derived audit tables and partial source-data inspection scripts. Raw provider data, rendered figures, full figure-building scripts and manuscript-facing files are not redistributed.",
   "creators": [
     {
       "name": "Zhou, Xi-Yin",

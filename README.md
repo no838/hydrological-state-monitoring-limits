@@ -1,7 +1,7 @@
-# Global limits of hydrological state monitoring for high-flow prediction
+# Global limits of hydrological state monitoring under streamflow persistence
 
 This public release contains derived source data and lightweight code supporting
-the article "Global limits of hydrological state monitoring for high-flow prediction". It is a data/code availability package, not a full
+the article "Global limits of hydrological state monitoring under streamflow persistence". It is a data/code availability package, not a full
 article-file archive. Raw provider data, rendered figures, full figure-building
 scripts and manuscript-facing files are not redistributed.
 
@@ -39,6 +39,8 @@ provider archives are not redistributed. Users who need full upstream
 reconstruction should retrieve raw provider data from the original providers
 under their respective licenses and adapt the inspection scripts to their local
 data layout.
+
+Note: The associated manuscript title was updated to "Global limits of hydrological state monitoring under streamflow persistence".
 
 ## Citation
 

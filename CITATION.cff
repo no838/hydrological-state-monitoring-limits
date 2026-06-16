@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this data/code release, please cite it."
-title: "Global limits of hydrological state monitoring for high-flow prediction"
+title: "Global limits of hydrological state monitoring under streamflow persistence"
 version: "v1.0.0"
 type: dataset
 authors:
