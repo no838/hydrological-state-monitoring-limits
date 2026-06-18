@@ -10,6 +10,8 @@ Q-only surrogate draw tables, and Figure 5 transition/surrogate analysis scripts
 - Release version: `v1.1.0`
 - Repository: https://github.com/no838/hydrological-state-monitoring-limits
 - Release URL: https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.1.0
+- Version DOI: https://doi.org/10.5281/zenodo.20740985
+- Concept DOI: https://doi.org/10.5281/zenodo.20740984
 - Previous archived DOI: https://doi.org/10.5281/zenodo.20674526
 
 ## Contents
@@ -39,9 +41,9 @@ python3 run_reproduction.py
 
 ## Citation
 
-After this release is archived on Zenodo, cite the version DOI assigned by
-Zenodo. Until then, cite the repository release URL above and the previous
-archived DOI listed for version linkage.
+Please cite the Zenodo version DOI for this release:
+https://doi.org/10.5281/zenodo.20740985. The concept DOI for all versions is
+https://doi.org/10.5281/zenodo.20740984.
 
 ## License
 

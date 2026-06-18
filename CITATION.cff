@@ -9,5 +9,7 @@ authors:
   - family-names: Cao
     given-names: Chunyan
 repository-code: "https://github.com/no838/hydrological-state-monitoring-limits"
+doi: "10.5281/zenodo.20740985"
+url: "https://doi.org/10.5281/zenodo.20740985"
 date-released: "2026-06-18"
 license: CC-BY-4.0
