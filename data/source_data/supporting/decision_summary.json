@@ -1,0 +1,14 @@
+{
+  "decision": "LAG_MANIFOLD_STRONGER_NULL_SUPPORT_LIMITED",
+  "decision_reason": "ar_decay_surrogate_recovers_large_share_of_lag_family_signal",
+  "n_basins": 39,
+  "n_source_families": 5,
+  "r2_lag_family_full": 0.65087245829263,
+  "r2_lag_family_pc90": 0.47803012385474675,
+  "r2_xi_star": 0.19213875894648103,
+  "r2_ar_decay_lag_family": 0.6901798535663617,
+  "ar_decay_to_lag_family_ratio": 1.060391855228969,
+  "xi_star_minus_ar_decay_r2": -0.49804109461988066,
+  "lag_dim90": 1,
+  "lag_dim95": 2
+}

@@ -1,5 +1,7 @@
 figure,source_data,claim_boundary
-Figure 1,data/source_data/Source_Data_Fig1_INFORMATION_PARTITION.xlsx,information partition summary
-Figure 2,data/source_data/Source_Data_Fig2_THRESHOLD_CI.xlsx,threshold sensitivity and confidence intervals
-Figure 3,data/source_data/Source_Data_Fig3_SPATIAL_TRANSFER.xlsx,spatial transfer and monitoring-value classes
-Figure 4,data/source_data/Source_Data_Fig4_STORAGE_FAMILY.xlsx,storage proxy-family breadth summary
+Figure 1,data/source_data/Source_Data_Fig1_INFORMATION_PARTITION.xlsx,monitoring value geography
+Figure 2,data/source_data/Source_Data_Fig2_THRESHOLD_CI.xlsx,threshold-state contrast
+Figure 3,data/source_data/Source_Data_Fig3_SPATIAL_TRANSFER.xlsx,temporal recurrence and transfer boundary
+Figure 4,data/source_data/Source_Data_Fig4_STORAGE_FAMILY.xlsx,storage-family moderation
+Figure 5,data/source_data/Source_Data_Fig5_CONTROLLED_TRANSITION.xlsx,controlled-transition and surrogate screen
+Figure 5,data/source_data/Source_Data_Fig5_LAG_DECAY_CONSTRAINT.xlsx,lag-decay constraint comparison

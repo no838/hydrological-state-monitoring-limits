@@ -1,10 +1,7 @@
 # Code scope
 
-This public release intentionally provides partial reproducibility code only.
-The scripts inspect and summarize the released source-data workbooks. They do
-not rebuild the full manuscript figures, do not run the upstream analysis
-pipeline, and do not redistribute raw provider data.
-
-To extend the checks, users should retrieve raw data from the original
-providers and adapt the scripts to their local directory layout and licensing
-conditions.
+This release provides source-data checks and the Figure 5 transition/surrogate
+analysis scripts used to audit the controlled-transition layer. It does not
+redistribute upstream raw provider archives or local cache products. Full
+upstream reconstruction requires retrieving provider data under the original
+provider terms.

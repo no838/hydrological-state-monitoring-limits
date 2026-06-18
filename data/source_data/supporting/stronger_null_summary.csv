@@ -1,0 +1,5 @@
+null_family,statistic,observed_value,null_mean,null_median,null_p95,empirical_p_ge_observed,n_draws,pass_strict
+lag_covariance_surrogate_features,lag_family_full_r2,0.65087245829263,0.1587206550225482,0.15009551610646377,0.3094789916548201,0.001,999,True
+source_block_target_permutation,lag_family_full_r2,0.65087245829263,0.38809741929845165,0.37900710271665994,0.6421408538030376,0.045,999,True
+within_source_target_permutation,lag_family_full_r2,0.65087245829263,0.5178093992222441,0.511411386950986,0.6663241363241885,0.065,999,False
+within_source_target_permutation,xi_star_r2,0.19213875894648103,0.04844143591415437,0.03460967649079005,0.14503067404728318,0.018,999,True

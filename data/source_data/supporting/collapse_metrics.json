@@ -1,0 +1,10 @@
+{
+  "n_basins": 39.0,
+  "n_source_families": 5.0,
+  "xi_star_rho1_abs_corr": 0.6620727364015203,
+  "r2_xi_star": 0.1921387589464807,
+  "r2_rho1": 0.3304479550627345,
+  "r2_acf_mean": 0.5184164768414914,
+  "r2_entropy_rate_proxy": 0.006087216004539098,
+  "incremental_r2_xi_over_acf": 0.012589478132818854
+}

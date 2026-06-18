@@ -1,7 +1,7 @@
 {
   "title": "Global limits of hydrological state monitoring under streamflow persistence",
   "upload_type": "dataset",
-  "description": "Derived source data and lightweight code supporting the article 'Global limits of hydrological state monitoring under streamflow persistence'. This public release contains figure source data, supporting derived audit tables and partial source-data inspection scripts. Raw provider data, rendered figures, full figure-building scripts and manuscript-facing files are not redistributed.",
+  "description": "Derived source data and source-data-level code for the paper 'Global limits of hydrological state monitoring under streamflow persistence'. Version 1.1.0 adds Figure 5 source-data workbooks, retained-basin metadata, transition-gain model tables, Q-only surrogate draw and summary tables, and Figure 5 transition/surrogate analysis scripts. Raw provider records are not redistributed.",
   "creators": [
     {
       "name": "Zhou, Xi-Yin",
@@ -16,17 +16,22 @@
   "license": "cc-by-4.0",
   "keywords": [
     "hydrological state monitoring",
-    "high-flow prediction",
     "streamflow persistence",
-    "MERRA2-GloFAS",
-    "source data"
+    "high-flow prediction",
+    "source data",
+    "surrogate analysis"
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.0.0",
+      "identifier": "https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.1.0",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.20674526",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
     }
   ],
-  "version": "v1.0.0"
+  "version": "v1.1.0"
 }

@@ -1,24 +1,24 @@
-# Public Release Sanitization Report
+# Public release sanitization report
 
-Generated: 2026-06-13T03:56:56.469530+00:00
-Source package: selected manuscript-supporting source-data package
-Release version: v1.0.0
+Generated: 2026-06-18T03:41:39.152321+00:00
+Version: v1.1.0
 
 ## Included
 
-- Derived figure source data and public-safe supporting tables.
-- Lightweight source-data inspection scripts.
-- Release metadata, manifest and checksums.
+- Derived source-data workbooks for Figures 1-5.
+- Figure 5 retained-basin, transition-model and Q-only surrogate supporting tables.
+- Source-data-level inspection scripts.
+- Figure 5 transition/surrogate analysis scripts.
+- Manifest, checksums, citation metadata and Zenodo metadata.
 
 ## Excluded
 
-- Manuscript DOCX/PDF.
-- Cover letter DOCX/PDF.
-- Supplementary Information DOCX/PDF.
-- Rendered figure files in PNG, PDF, SVG and TIFF format.
-- Raw provider datasets, caches, checkpoints, credentials and local path records.
+- Raw provider records.
+- Local cache products and checkpoints.
+- Paper submission files, cover letters and portal records.
+- Rendered figure image files.
 
-## Claim boundary
+## Boundary
 
-This is a public data/code availability release. It is not a full article-file
-archive and does not redistribute provider raw data.
+This is a public data/code release for source-data-level inspection and
+source-data-level analysis. It is not a raw-data redistribution archive.

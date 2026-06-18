@@ -1,54 +1,50 @@
 # Global limits of hydrological state monitoring under streamflow persistence
 
-This public release contains derived source data and lightweight code supporting
-the article "Global limits of hydrological state monitoring under streamflow persistence". It is a data/code availability package, not a full
-article-file archive. Raw provider data, rendered figures, full figure-building
-scripts and manuscript-facing files are not redistributed.
+This public release contains derived source data and source-data-level code for
+the paper "Global limits of hydrological state monitoring under streamflow persistence". It updates the previous public archive by adding Figure 5
+source-data workbooks, retained-basin metadata, transition-gain model tables,
+Q-only surrogate draw tables, and Figure 5 transition/surrogate analysis scripts.
 
 ## Version
 
-- Release version: `v1.0.0`
-- GitHub repository: https://github.com/no838/hydrological-state-monitoring-limits
-- Concept DOI reserved for all versions: https://doi.org/10.5281/zenodo.20630564
-
-## Creators
-
-1. Xi-Yin Zhou (first and corresponding author)
-2. Chunyan Cao
-
-Affiliations:
-
-1. Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring, Warning and Forecasting (Shenzhen Institute of Meteorological Innovation), Shenzhen 518000, China
-2. Shenzhen Key Laboratory of Southern Severe Weather Research (Shenzhen Key Laboratory of Artificial Intelligence Meteorological Application), Shenzhen, Guangdong 518038, China
+- Release version: `v1.1.0`
+- Repository: https://github.com/no838/hydrological-state-monitoring-limits
+- Release URL: https://github.com/no838/hydrological-state-monitoring-limits/releases/tag/v1.1.0
+- Previous archived DOI: https://doi.org/10.5281/zenodo.20674526
 
 ## Contents
 
-- `data/source_data/`: figure-level Excel workbooks and public-safe supporting derived tables.
-- `code/`: partial reproducibility scripts for inspecting source-data workbooks.
-- `metadata/`: source-data index and panel source map.
-- `scripts/00_check_inputs.py`: input and sanitization preflight.
-- `run_reproduction.py`: lightweight traceability runner.
+- `data/source_data/`: figure-level workbooks for Figures 1-5 and public-safe supporting tables.
+- `code/source_data_checks/`: scripts for inspecting source-data workbooks and figure-level source tables.
+- `code/figure_builders/`: Figure 5 transition and surrogate analysis scripts.
+- `metadata/`: file manifest, panel source map, source-data hash manifest and checksums.
+- `scripts/00_check_inputs.py`: public-release preflight.
+- `run_reproduction.py`: lightweight source-data validation runner.
 
 ## Reproduction scope
 
-This release supports inspection of figure source data and limited
-source-data-level reproducibility checks. It does not provide full figure
-rebuild scripts, full raw-data reconstruction, or the upstream analysis
-pipeline because raw MERRA2, GloFAS, CHIRPS/GLEAM, GRDC, GSIM and other
-provider archives are not redistributed. Users who need full upstream
-reconstruction should retrieve raw provider data from the original providers
-under their respective licenses and adapt the inspection scripts to their local
-data layout.
+This archive supports inspection of the released source-data workbooks, Figure 5
+supporting tables and source-data-level analysis scripts. It is not a raw-data
+redistribution archive. Raw MERRA2, GloFAS, CHIRPS/GLEAM, GRDC, GSIM and related
+provider records remain subject to their original provider terms and must be
+retrieved from the original providers for full upstream reconstruction.
 
-Note: The associated manuscript title was updated to "Global limits of hydrological state monitoring under streamflow persistence".
+## Quick start
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 scripts/00_check_inputs.py
+python3 run_reproduction.py
+```
 
 ## Citation
 
-After Zenodo archives this release, cite the version DOI reported by Zenodo.
-The concept DOI above resolves to the latest archived version.
+After this release is archived on Zenodo, cite the version DOI assigned by
+Zenodo. Until then, cite the repository release URL above and the previous
+archived DOI listed for version linkage.
 
 ## License
 
 Code is released under the MIT License. Derived source-data tables are released
-under CC BY 4.0 where permitted by upstream provider terms. Raw provider data
-are excluded and remain subject to their original licenses.
+under CC BY 4.0 where permitted by upstream provider terms. Raw provider records
+are not redistributed.

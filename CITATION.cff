@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this data/code release, please cite it."
 title: "Global limits of hydrological state monitoring under streamflow persistence"
-version: "v1.0.0"
+version: "v1.1.0"
 type: dataset
 authors:
   - family-names: Zhou
@@ -9,6 +9,5 @@ authors:
   - family-names: Cao
     given-names: Chunyan
 repository-code: "https://github.com/no838/hydrological-state-monitoring-limits"
-doi: "10.5281/zenodo.20630564"
-date-released: "2026-06-13"
+date-released: "2026-06-18"
 license: CC-BY-4.0
